@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="Style.css">
+<title>Predict the time spend for a move in chess</title>
+<link rel="shortcut icon" href="./media/logo-chess-project.png">
+<script src="structure.js" defer></script>
+</head>
+<body>
+
+
+<section class="intro-section">
+<div class="intro-content animate__animated animate__fadeIn">
+<img src="media/motif_site_Project.png" alt="Decorative motif" class="intro-motif animate__animated animate__zoomIn">
+<h1 class="intro-title">Results</h1>
+</div>
+</section>
+
+
+<nav id="projectNav" class="project-nav">
+<a href="FinalProjectHome.html">Home</a>
+<a href="FinalProjectData.html">Data</a>
+<a href="FinalProjectResult.html">Result</a>
+</nav>
+
+
+<main class="page-main">
+<section class="card">
+<h2>Results</h2>
+<p>Performances of my model</p>
+<ul>
+    <li>MSE = 378.621935</li>
+    <li>RMSE = 19.45821</li>
+    <li>MAE = 6.627784</li>
+    <li>r2 = 0.378616</li>
+
+</ul>
+</section>
+
+
+<section class="card">
+<h2>Interpretation</h2>
+<p>So we have an r-squared of 0.378616. Our model predicts Magnus's time with a margin of error of 19.45821 seconds (RMSE). Our model suffers of bias, but it's a good start for a research project that hasn't been explored yet. For future research, we could consider adding more variables to train our model.</p>
+</section>
+
+<!--Final image for each site-->
+<section class="final-section">
+<div class="intro-content animate__animated animate__fadeIn">
+<img src="media/final-motif.png" alt="Decorative motif" class="intro-motif animate__animated animate__zoomIn">
+
+</main>
+
+
+<footer class="site-footer">© 2025 Project Result Page</footer>
+</body>
+</html>
